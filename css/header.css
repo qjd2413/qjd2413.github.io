@@ -1,7 +1,7 @@
-.header ul {
+.header-list {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 2%;
     overflow: hidden;
     background-color: #333;
     display: block;
@@ -22,18 +22,4 @@
 
 .header .link a:hover:not(.active) {
     background-color: #111;
-}
-
-.header .social-media-wrapper {
-    float: right;
-    padding-right: 13px;
-}
-
-.social-media {
-    display: inline-block;
-}
-
-.social-media a img {
-    height: 38px;
-    padding: 13px 0px;
 }

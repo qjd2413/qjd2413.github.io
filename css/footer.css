@@ -1,0 +1,25 @@
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+}
+
+.footer .social-media-wrapper {
+    display: table;
+    margin: auto;
+}
+
+.social-media {
+    display: inline-block;
+    padding: 13px 0px;
+}
+
+.social-media a {
+    display: block;
+}
+
+.social-media a img {
+    height: 38px;
+}
