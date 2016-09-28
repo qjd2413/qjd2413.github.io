@@ -10,6 +10,7 @@
 .header .link {
     float: left;
     display: block;
+    min-width: 10%;
 }
 
 .header .link a {
@@ -22,4 +23,8 @@
 
 .header .link a:hover:not(.active) {
     background-color: #111;
+}
+
+.active {
+    background-color: #0F0;
 }
