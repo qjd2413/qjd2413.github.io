@@ -4,12 +4,16 @@ title: Contact
 css: contact
 header_title: Contact Me
 ---
-I can be reached through this form, via the social media links in the footer, 
-or by email at <strong>qjd2413@g.rit.edu</strong><br />
+<div class="contact-text">
+    I can be reached through this form, via the social media links in the footer, 
+    or by email at <strong>qjd2413@g.rit.edu</strong><br />
+</div>
 
-<form action="https://formspree.io/qjd2413@g.rit.edu" method="POST">
-    <input type="text" name="name" placeholder="Your Name"><br />
-    <input type="email" name="_replyto" placeholder="Your Email"><br />
-    <textarea name="message" placeholder="Your Message"></textarea><br />
-    <input type="submit" value="Submit">
-</form>
+<div class="contact-form-wrapper">
+    <form class="contact-form" action="https://formspree.io/qjd2413@g.rit.edu" method="POST">
+        <input class="contact-input" type="text" name="name" placeholder="Your Name"><br />
+        <input class="contact-input" type="email" name="_replyto" placeholder="Your Email"><br />
+        <textarea class="contact-textarea" name="message" placeholder="Your Message"></textarea><br />
+        <input type="submit" value="Submit">
+    </form>
+</div>

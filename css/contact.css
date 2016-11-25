@@ -1,0 +1,15 @@
+
+.contact-text {}
+
+.contact-form-wrapper {
+    display: block;
+    margin:auto;
+}
+
+.contact-form {}
+
+.contact-input {}
+
+.contact-textarea {
+    resize: none;
+}
